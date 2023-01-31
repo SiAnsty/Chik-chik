@@ -3,6 +3,7 @@
 }
 
 .price__title {
+  font-weight: 400;
   font-size: 40px;
   text-transform: uppercase;
   margin: 0 0 16px;

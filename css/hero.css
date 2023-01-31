@@ -3,6 +3,7 @@
 }
 
 .hero__title {
+  font-weight: 400;
   font-size: 54px;
   text-transform: uppercase;
   max-width: 904px;
