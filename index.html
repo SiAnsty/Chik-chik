@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="./css/about.css">
   <link rel="stylesheet" href="./css/reserve.css">
   <link rel="stylesheet" href="./css/radio.css">
+  <link rel="stylesheet" href="./css/footer.css">
 
   <script src="js/script.js" defer></script>
 </head>
@@ -29,7 +30,7 @@
       <div class="header__container">
         <img class="header__logo" src="./img/logo.svg" alt="Логотип барбершоп Chik-chik">
         <nav class="header__navigation navigation">
-          <ul class="navigaton__list">
+          <ul class="navigation__list">
             <li class="navigation__item">
               <a href="#price" class="navigation__link">Стоимость услуг</a>
             </li>
@@ -121,7 +122,7 @@
                 <span class="price__item-count">1000 руб</span>
               </li>
             </ul>
-            <a href="#reserv" class="price__link main-link">Записаться</a>
+            <a href="#reserve" class="price__link main-link">Записаться</a>
           </div>
         </div>
       </div>
@@ -130,7 +131,10 @@
     <section class="about" id="about">
       <div class="container">
         <h2 class="about__title">Мы помогаем всем мужчинам выглядеть уверенно</h2>
-        <p class="about__description">Сhik chik — это намного больше, чем просто барберная. Это место, где вам помогут найти свой собственный, неповторимый стиль. Стоит довериться нашим мастерам один раз, и, поверьте, новый образ не оставит Вас равнодушным. Мужские стрижки и опасное бритье — это наш профиль, и мы уверены, что наши барберы делают это лучше всех.</p>
+        <p class="about__description">Сhik chik — это намного больше, чем просто барберная. Это место, где вам помогут
+          найти свой собственный, неповторимый стиль. Стоит довериться нашим мастерам один раз, и, поверьте, новый образ
+          не оставит Вас равнодушным. Мужские стрижки и опасное бритье — это наш профиль, и мы уверены, что наши барберы
+          делают это лучше всех.</p>
         <ul class="about__list">
           <li class="about__item about__item_top">
             <h3 class="about__item-title">Топ специалисты</h3>
@@ -138,7 +142,7 @@
           </li>
           <li class="about__item about__item_master">
             <h3 class="about__item-title">Мастера бород и усов</h3>
-            <p class="about__item-description">Мы заботливо уложим вашу бороду и усы</p>
+            <p class="about__item-description">Мы заботливо уложим вашу бороду и&nbsp;усы</p>
           </li>
           <li class="about__item about__item_gar">
             <h3 class="about__item-title">Гарантия качества</h3>
@@ -148,18 +152,18 @@
       </div>
     </section>
 
-    <section class="reserve" id="reserv">
+    <section class="reserve" id="reserve">
       <div class="container">
         <h2 class="reserve__title">Как записаться к нам</h2>
-        <ol class="reserv__list">
-          <li class="reserv__item">Выберите услугу, можно выбрать сразу несколько</li>
-          <li class="reserv__item">Выберите специалиста</li>
-          <li class="reserv__item">Выберите удобный день и время</li>
+        <ol class="reserve__list">
+          <li class="reserve__item">Выберите услугу, можно выбрать сразу несколько</li>
+          <li class="reserve__item">Выберите специалиста</li>
+          <li class="reserve__item">Выберите удобный день и время</li>
         </ol>
-        <form class="reserv__form">
-          <div class="reserv__form-container">
-            <fieldset class="reserv__fieldset">
-              <legend class="reserv__legeng">Услуга</legend>
+        <form class="reserve__form">
+          <div class="reserve__form-container">
+            <fieldset class="reserve__fieldset">
+              <legend class="reserve__legeng">Услуга</legend>
               <label class="radio">
                 <input class="radio__input" type="radio" name="service">
                 <span class="radio__lable">Стрижка ножницами</span>
@@ -189,8 +193,8 @@
                 <span class="radio__lable">Оформление бровей</span>
               </label>
             </fieldset>
-            <fieldset class="reserv__fieldset">
-              <legend class="reserv__legeng">Специалист</legend>
+            <fieldset class="reserve__fieldset">
+              <legend class="reserve__legeng">Специалист</legend>
               <label class="radio">
                 <input class="radio__input" type="radio" name="spec">
                 <span class="radio__lable radio__lable_spec" style="--bg-image: url(../img/spec1.png)">Игорь</span>
@@ -212,9 +216,9 @@
                 <span class="radio__lable radio__lable_spec" style="--bg-image: url(../img/spec5.png)">Евгений</span>
               </label>
             </fieldset>
-            <fieldset class="reserv__fieldset">
-              <legend class="reserv__legeng">Дата и время</legend>
-              <fieldset class="reserv__fieldset reserv__fieldset_sub">
+            <fieldset class="reserve__fieldset">
+              <legend class="reserve__legeng">Дата и время</legend>
+              <fieldset class="reserve__fieldset reserve__fieldset_sub">
                 <label class="radio">
                   <input class="radio__input" type="radio" name="month">
                   <span class="radio__lable">Январь</span>
@@ -228,7 +232,7 @@
                   <span class="radio__lable">Март</span>
                 </label>
               </fieldset>
-              <fieldset class="reserv__fieldset reserv__fieldset_sub">
+              <fieldset class="reserve__fieldset reserve__fieldset_sub">
                 <label class="radio">
                   <input class="radio__input" type="radio" name="day">
                   <span class="radio__lable">18 января</span>
@@ -246,7 +250,7 @@
                   <span class="radio__lable">21 января</span>
                 </label>
               </fieldset>
-              <fieldset class="reserv__fieldset reserv__fieldset_sub">
+              <fieldset class="reserve__fieldset reserve__fieldset_sub">
                 <label class="radio">
                   <input class="radio__input" type="radio" name="time">
                   <span class="radio__lable">10:00-11:30</span>
@@ -278,7 +282,7 @@
               </fieldset>
             </fieldset>
           </div>
-          <button class="reserv__btn main-link">Записаться</button>
+          <button class="reserve__btn main-link">Записаться</button>
         </form>
       </div>
     </section>
@@ -286,24 +290,30 @@
 
   <footer class="footer">
     <div class="container">
-      <img class="footer__logo" src="./img/logo.svg" alt="Логотип барбершоп Chik-chik">
-      <nav class="foooter__navigation navigation">
-        <ul class="navigaton__list">
-          <li class="navigation__item">
-            <a href="#price" class="navigation__link">Стоимость услуг</a>
+      <div class="footer__container">
+        <img class="footer__logo" src="./img/logo.svg" alt="Логотип барбершоп Chik-chik">
+
+        <div class="footer__navigation navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#price" class="navigation__link">Стоимость услуг</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#about" class="navigation__link">О нас</a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer__developers">
+          <li class="footer__developer">
+            Designer: <a class="footer__developer-link" href="https://t.me/Mrshmallowww">Anastasia Ilina</a>
           </li>
-          <li class="navigation__item">
-            <a href="#about" class="navigation__link">О нас</a>
+          <li class="footer__developer">
+            Developer: <a class="footer__developer-link" href="https://t.me/Si_Ansty">Anastasia Sidorova</a>
           </li>
         </ul>
-      </nav>
-      <ul class="footer__list">
-        <li class="footer__item">Designer: Anastasia Ilina</li>
-        <li class="footer__item">Developer: Anastasia Sidorova</li>
-      </ul>
-      <p class="footer__cop">
-        <small>© chik chik, 2023</small>
-      </p>
+          <p class="footer__copyright">© chik chik, 2023</p>
+      </div>
     </div>
   </footer>
 </body>

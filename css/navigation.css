@@ -1,4 +1,4 @@
-.navigaton__list {
+.navigation__list {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -13,4 +13,16 @@
   font-size: 14px;
   line-height: 100%;
   text-transform: uppercase;
+}
+
+@media (max-width: 560px) {
+  .navigaton__list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .navigation__link {
+    font-size: 12px;
+  }
 }
